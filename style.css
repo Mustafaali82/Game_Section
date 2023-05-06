@@ -53,7 +53,40 @@ button {
     cursor: pointer;
 }
 
-.video-button-img{
+.video-button-img {
     width: 130px;
     margin-left: 15px;
+}
+
+@media screen and (max-width:767px) {
+    .main {
+        flex-direction: column;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 46px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 15px;
+        width: 301px;
+    }
+
+    .button-box {
+        justify-content: center;
+    }
+
+    .hero-content {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .two  img {
+        width: 300px;
+    }
 }
