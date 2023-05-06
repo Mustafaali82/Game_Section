@@ -1,2 +1,2 @@
-# Game_Website
-This is Game Website
+# Game_Section
+This is Game Section
