@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/626b66e0b9b30ba831b4e1d1_hero-bg.png");
+    background-size: cover;
+    color: white;
+    font-family: 'Exo', sans-serif;
+
+    padding: 20px 100px;
+}
+
+
+span {
+    font-size: 20px;
+    color: #7ba435;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 19px;
+    width: 500px;
+    line-height: 30px;
+}
+
+.button-box {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    height: 69px;
+    width: 181px;
+    background-color: #7BA435;
+    color: white;
+    font-size: 23px;
+    border: 1px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.video-button-img{
+    width: 130px;
+    margin-left: 15px;
+}
